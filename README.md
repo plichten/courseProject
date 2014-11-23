@@ -1,6 +1,7 @@
 courseProject
 =============
 run_analysis.R works on individual files that have been downloaded to a local machine.
+
 It uses the dplyr, data.table, and reshape2 packages, which are loaded during the execution of the script.
 It loads the training and test data sets into separate data frames. 
 It loads variable names for the measurement variable by reading in the feature.txt file removing the first column from that data frame and converting it to a vector.
@@ -15,3 +16,5 @@ It retains only the mean and standard variation variables using the select funct
 It calculates the averages on these remaining variables using lapply, mean over the measurement variables.
 It reorganizes the data to create the signal and average variables using the melt function.
 It writes the resulting table to a text file named signalAverage.txt using the write.table function.
+
+To view the tidy data set, please read it into R using read.table("./signalAverage.txt").
