@@ -15,7 +15,7 @@ of 4 variables. The variables are:
 The data files were downloaded to a local machine from the following link:
   https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
   
-The first step in the process isto build a data table from the necessary files. 
+The first step in the process is to build a data table from the necessary files. 
   1. The file features.txt is loaded and converted into a vector. This represents the measurement
       variables in the first data table.
   2. Unique is run on the vector to remove duplicates.
