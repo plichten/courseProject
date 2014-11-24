@@ -1,5 +1,5 @@
 A group of researchers carried out an experiment in which they captured a large set of biophysical measurements as 
-subjects perfromed a series of activities. The data were recorded in number of text files. The purpose of the 
+subjects perfromed a series of activities. Time and freqeuncy variables were calculated along with mean and standard variation on these variables. The data were saved in a number of text files. The purpose of the 
 run_analysis.R script is to recover from this scattered data a tidy data set with the average values for all of 
 the mean and standard deviation measurements. 
 
